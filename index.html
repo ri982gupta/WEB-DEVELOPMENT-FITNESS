@@ -1,0 +1,196 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>My 1st Web "Fitness" </title>
+</head>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400;800&family=Baloo+Tammudu+2:wght@400;800&display=swap"
+	rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<style>
+	/* Css REset  */
+	body {
+		font-family: 'Baloo Tammudu 2', cursive;
+		margin: 0px;
+		padding: 0px;
+
+		background-image: url("fg.jpg");
+
+	}
+
+	.left {
+		position: absolute;
+		left: 34px;
+		top: 12px;
+		/* border: 2px solid red; */
+		display: inline-block;
+		margin: 13px;
+
+	}
+
+	.left img {
+
+		width: 50px;
+		text-align: center;
+
+
+	}
+
+	.left div {
+		line-height: 19px;
+		font-size: 19px;
+		text-align: center;
+
+	}
+
+	.mid {
+		display: block;
+		margin: 24px auto;
+		/* border: 2px solid rgb(208, 255, 0); */
+		width: 35%;
+	}
+
+	.right {
+		position: absolute;
+		margin: 13px;
+		right: 34px;
+		top: 12px;
+		/* border: 2px solid rgb(0, 255, 21); */
+		display: inline-block;
+	}
+
+	.navbar {
+		display: inline-block;
+
+	}
+
+	.navbar li {
+		display: inline-block;
+		font-size: 19px;
+
+
+	}
+
+	.navbar li a {
+		color: #1c053f;
+		text-decoration: none;
+		padding: 9px;
+		font-size: 19px;
+	}
+
+	.navbar li a:hover,
+	.navbar li a.active {
+		text-decoration: underline;
+		color: rgb(134, 1, 56);
+	}
+
+	.btn {
+		font-family: 'Baloo Tammudu 2', cursive;
+		color: #170366;
+		margin: 4px 6px;
+		padding: 0px 13px;
+		border: 2px solid gray;
+		border-radius: 10px;
+		font-size: 16px;
+		cursor: pointer;
+	}
+
+	.btn:hover {
+		background-color: white;
+
+		color: rgb(81, 196, 87);
+
+
+	}
+
+	.container {
+		border: 2px solid #d1c4e9;
+		margin: 78px 27px;
+		width: 33%;
+		padding: 16px 12px;
+		border-radius: 14px;
+
+	}
+
+	.form-text input {
+		text-align: center;
+		display: block;
+		width: 325px;
+		padding: 2px;
+		border: 1px solid gray;
+		margin: 2px auto;
+		border-radius: 10px;
+		font-size: 17px;
+		font-family: 'Baloo Tammudu 2', cursive;
+	}
+
+	.container h1 {
+		text-align: center;
+	}
+
+	.container button {
+		display: block;
+		width: 340px;
+		margin: 3px auto;
+		background-color: rgb(114, 111, 111);
+		color: white;
+	}
+</style>
+
+<body>
+	<header class="header">
+		<!-- left box for logo -->
+		<div class="left" style="text-align: center;">
+			<img src="C:\Users\HP\Desktop\PROJECTS\PROJECT WEB DEVELOPMENT FITNESS\fl.jpg" alt="">
+
+			<div style="font-size: 17px;">Abhishek Fitness</div>
+		</div>
+		<!-- mid bos for navbar 	 -->
+		<div class="mid">
+			<ul class="navbar">
+				<li><a href="#" class="active"> Home</a></li>
+				<li><a href="#"> About us</a></li>
+				<li><a href="#"> Fitness Calculator</a></ <li><a href="#"> Contact us</a></li>
+			</ul>
+		</div>
+		<!-- Right box for button  -->
+		<div class="right">
+			<button class="btn"> call us now </button>
+			<button class="btn"> Email</button>
+
+		</div>
+	</header>
+	<div class="container">
+		<h1 style="font-size: 25px;"> Join The Best GYM of The Bareilly Now </h1>
+		<form action="noaction.php">
+			<div class="form-text">
+				<input type="text" name="" placeholder="Enter Your Name:">
+			</div>
+			<div class="form-text">
+				<input type="text" name="" placeholder="Enter Your  Age:">
+			</div>
+			<div class="form-text">
+				<input type="text" name="" placeholder="Enter Your Gender:">
+			</div>
+			<div class="form-text">
+				<input type="text" name="" placeholder="Enter Your Locality:">
+			</div>
+			<div class="form-text">
+				<input type="text" name="" placeholder="Enter Your Health Problem(If is?):">
+			</div>
+			<div class="form-text">
+				<input type="text" name="" placeholder="Enter Your Number:">
+			</div>
+			<button class="btn">
+				Submit
+			</button>
+		</form>
+	</div>
+
+</body>
+
+</html>
